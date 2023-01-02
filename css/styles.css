@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto';
+    color: #757575;
+}
+a {
+    text-decoration: none;
+    font-family: inherit
+}
+ul {
+    list-style: none;
+}
+button{
+    outline:none;
+    border: none;
+}
+:root {
+    --logo-color: #2196F3;
+    --background-brand: #2F303A;
+    --text-color: #757575;
+    --label-color: #212121;
+    --logo-font: 'Raleway';
+    --brand-font: 'Roboto'
+}
+.link:hover {
+    cursor: pointer;
+}
+.logo{
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--logo-color);
+}
+.global-link{
+    font-weight: 500;
+    color: var(--label-color);
+}
+.menu-link{
+    font-size: 14px;
+    line-height: 1.1em;
+    letter-spacing: 0.02em;
+}
+.filter-button{
+    font-size: 16px;
+    font-family: var(--brand-font);
+    line-height: 1.6em;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.box-products{
+    width: 370px;
+    height: 404px;
+    left: calc(50% - 370px/2 - 400px);
+    top: calc(50% - 404px/2 - 30px);
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.box-products:hover{
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
