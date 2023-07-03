@@ -23,16 +23,12 @@ button{
     outline: none;
     border: none;
 }
-
 .link.active{
     color: var(--color-blue); 
 }
 .link:hover {
     color: var(--color-blue);
 }
-/*.link:visited {
-    color: var(--label-color);
-}*/
 .label-color{
     color: var(--label-color);
 }
@@ -52,6 +48,11 @@ button{
 .text-card{
     font-size: 16px;
     line-height: 1.1;
+}
+.tittle-card{
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
 }
 .weight-card{
     font-weight: 500;
@@ -89,18 +90,14 @@ button{
 }
 .content-banner{
     width: 100%;
-    height: 600px;
     background: var(--background-brand);
-    text-align: center;
 }
 #team {
     background-color: var(--background-team);
 }
 .card-team {
     background-color: white;
-    width: 270px;
-    height: 368px;
-    text-align: center;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 #footer {
     background-color: var(--background-brand);
@@ -149,8 +146,6 @@ address {
     cursor: pointer;
 }
 .box-products{
-    width: 370px;
-    height: 404px;
     left: calc(50% - 370px/2 - 400px);
     top: calc(50% - 404px/2 - 30px);
     background: #FFFFFF;
